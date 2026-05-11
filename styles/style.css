@@ -107,10 +107,13 @@ a {
   font-weight: 500;
 }
 .logoContent__logo {
-  display: flex;
-  align-items: center;
   width: 4rem;
   max-width: 100%;
+}
+
+.logoContent__logo a {
+  display: flex;
+  align-items: center;
 }
 
 .links {
