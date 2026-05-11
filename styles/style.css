@@ -95,8 +95,8 @@ a {
   background-color: var(--color-grayish-blue);
   cursor: not-allowed;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .logoContent {
@@ -107,6 +107,8 @@ a {
   font-weight: 500;
 }
 .logoContent__logo {
+  display: flex;
+  align-items: center;
   width: 4rem;
   max-width: 100%;
 }
@@ -225,7 +227,8 @@ a {
   box-shadow: 0 0.4rem 0.8rem 0.2rem rgba(0, 0, 0, 0.1);
   border-radius: var(--default-radius);
   width: 25rem;
-  padding: calc(var(--default-padding) * 2) var(--default-padding) var(--default-padding);
+  padding: calc(var(--default-padding) * 2) var(--default-padding)
+    var(--default-padding);
   height: 26rem;
 }
 @media (max-width: 600px) {
@@ -338,4 +341,4 @@ a {
   .footer__left {
     margin-right: 0;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
