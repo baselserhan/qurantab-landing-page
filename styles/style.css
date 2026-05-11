@@ -111,7 +111,7 @@ a {
   max-width: 100%;
 }
 
-.logoContent a {
+.logoContent > a {
   display: flex;
   align-items: center;
 }
