@@ -129,17 +129,10 @@ a {
 }
 .links__link {
   color: var(--color-very-dark-blue);
-  transition:
-    color var(--timing-animation) ease-in-out,
-    transform var(--timing-animation) ease-in-out;
+  transition: color var(--timing-animation) ease-in-out;
 }
 .links__link:hover {
   color: var(--color-soft-red);
-  transform: translateY(-1px);
-}
-.links__link.active {
-  color: var(--color-soft-blue);
-  font-weight: 600;
 }
 
 .header {
